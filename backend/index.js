@@ -9,5 +9,5 @@ app.use("/api/notes",require('./routes/notes'))
 
 app.listen(port, () => {
     connectToMongo();
-  console.log(`Example app listening on port ${port}`)
+  console.log(`iNotebook backend listening at on port ${port}`)
 })
